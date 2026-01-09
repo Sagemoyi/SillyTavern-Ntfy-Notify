@@ -24,7 +24,7 @@ Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境�
 1. 进入你的酒馆目录：`/SillyTavern/public/scripts/extensions/`
 2. 克隆本仓库：
    ```bash
-   git clone [https://github.com/你的GitHubID/SillyTavern-Ntfy-Notify.git](https://github.com/你的GitHubID/SillyTavern-Ntfy-Notify.git) ntfy-notify
+   git clone [https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git](https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git) ntfy-notify
 3.   重启酒馆或刷新网页。
 
 方法二：手动安装
@@ -54,4 +54,5 @@ Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境�
 建议勾选 仅当浏览器在后台时通知。
 
 🤝 贡献
+
 欢迎提交 Issue 或 Pull Request。
