@@ -1,0 +1,10 @@
+{
+    "display_name": "Ntfy 手机通知",
+    "loading_order": 50,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "moyi",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify"
+}
