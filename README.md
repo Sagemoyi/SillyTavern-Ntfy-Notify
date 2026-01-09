@@ -1,6 +1,6 @@
 # SillyTavern Ntfy Notify Plugin
 
-Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境下，手机浏览器没法发送通知的痛点（不知道有没有人做过，没找到就让Gemini写了）
+Gemini帮我写的（readme都是它写的）基于ntfy的酒馆ai回复通知插件，解决在http环境下，手机浏览器没法发送通知的痛点（不知道有没有人做过，没找到就让Gemini写了）
 
 需要手机下载ntfy软件，自行创建频道，其它设置在酒馆插件里能看到（我暂时只测试了基础功能）
 
@@ -20,22 +20,22 @@ Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境�
 
 ## 🚀 安装方法
 
-方法一：直接克隆 (推荐)
+### 方法一：直接克隆 (推荐)
 1. 进入你的酒馆目录：`/SillyTavern/public/scripts/extensions/`
 2. 克隆本仓库：
    ```bash
    git clone [https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git](https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git) ntfy-notify
 3.   重启酒馆或刷新网页。
 
-方法二：手动安装
+### 方法二：手动安装
 下载本仓库的 index.js 和 manifest.json。
 
 在 /SillyTavern/public/scripts/extensions/ 下新建文件夹 ntfy-notify。
 
 将文件放入该文件夹。
 
-⚙️ 使用说明
-手机端配置：
+## ⚙️ 使用说明
+### 手机端配置：
 
 下载 Ntfy APP (iOS/Android)。
 
@@ -43,7 +43,7 @@ Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境�
 
 注意：如果是小米手环用户，请在“小米运动健康/Zepp Life”中将 Ntfy 加入消息通知白名单。
 
-酒馆端配置：
+### 酒馆端配置：
 
 刷新酒馆页面，点击顶部的 插件 (Extensions) 图标。
 
@@ -53,6 +53,7 @@ Gemini帮我写的基于ntfy的酒馆ai回复通知插件，解决在http环境�
 
 建议勾选 仅当浏览器在后台时通知。
 
-🤝 贡献
+## 🤝 贡献
 
 欢迎提交 Issue 或 Pull Request。
+
