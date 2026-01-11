@@ -20,12 +20,12 @@ Gemini帮我写的（readme都是它写的）基于ntfy的酒馆ai回复通知�
 
 ## 🚀 安装方法
 
-### 方法一：直接克隆 (推荐)
-1. 进入你的酒馆目录：`/SillyTavern/public/scripts/extensions/`
-2. 克隆本仓库：
-   ```bash
-   git clone [https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git](https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify.git) ntfy-notify
-3.   重启酒馆或刷新网页。
+### 方法一：直接安装 (推荐)
+1. 进入你的酒馆-插件-安装插件
+2. 输入本项目地址
+   https://github.com/Sagemoyi/SillyTavern-Ntfy-Notify
+3. 安装（两种方式都行）
+4. 重启酒馆或刷新网页。
 
 ### 方法二：手动安装
 下载本仓库的 index.js 和 manifest.json。
@@ -39,7 +39,7 @@ Gemini帮我写的（readme都是它写的）基于ntfy的酒馆ai回复通知�
 
 下载 Ntfy APP (iOS/Android)。
 
-点击 + 订阅一个主题，名字随便起（例如 my_tavern_secret_123）。
+点击 + 订阅一个主题，名字随便起，最好复杂一点不让别人猜到（例如 my_tavern_secret_123）。
 
 注意：如果是小米手环用户，请在“小米运动健康/Zepp Life”中将 Ntfy 加入消息通知白名单。
 
@@ -56,4 +56,5 @@ Gemini帮我写的（readme都是它写的）基于ntfy的酒馆ai回复通知�
 ## 🤝 贡献
 
 欢迎提交 Issue 或 Pull Request。
+
 
