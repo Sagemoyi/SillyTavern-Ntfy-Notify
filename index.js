@@ -1,5 +1,6 @@
-import { eventSource, event_types, saveSettingsDebounced } from '../../../script.js';
-import { getContext, extension_settings } from '../../../extensions.js';
+// 直接从根目录下的 scripts 文件夹引用，无论插件装在哪儿都能找到
+import { eventSource, event_types, saveSettingsDebounced } from '/scripts/script.js';
+import { getContext, extension_settings } from '/scripts/extensions.js';
 
 const PLUGIN_NAME = 'ntfy';
 
@@ -153,4 +154,5 @@ jQuery(async () => {
         sendNotification();
     });
 });
+
 
