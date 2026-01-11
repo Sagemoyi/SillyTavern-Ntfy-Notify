@@ -1,6 +1,6 @@
 // 注意这里层级修好了：script.js用三个点，extensions.js用两个点
-import { eventSource, event_types, saveSettingsDebounced } from '../../../script.js';
-import { getContext, extension_settings } from '../../extensions.js';
+import { eventSource, event_types, saveSettingsDebounced } from '../../../../script.js';
+import { getContext, extension_settings } from '../../../extensions.js';
 
 const PLUGIN_NAME = 'ntfy';
 
@@ -154,3 +154,4 @@ jQuery(async () => {
         sendNotification();
     });
 });
+
